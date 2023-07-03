@@ -53,7 +53,7 @@ crossorigin="anonymous">
 <img width="60" :src="producto.imagen" :alt="producto.nombre">
 </td>
 <td>
-<a class="btn btn-primary" :href="'./producto_update.html?id='+ producto.id" >Editar</a>
+<a class="btn btn-primary" :href="'../templates/producto_update.html?id='+ producto.id" >Editar</a>
 <button type="button" class="btn btn-danger" v-on:click="eliminar(producto.id)" >Eliminar</button>
 </td>
 </tr>
