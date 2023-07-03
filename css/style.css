@@ -1,0 +1,91 @@
+/*------------- Especificaciones generales ----------------*/
+
+:root{
+    --clr-background:rgb(85, 157, 133);
+    --clr-secondary: rgb(243, 255, 240);
+    --clr-font:rgb(52, 52, 52);
+    --main-title:50px;
+
+}
+
+body{
+    background:var(--clr-background);
+    color: var(--clr-font);
+    font-size: 18px;
+    font-family: 'Slackey', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.tituloNav{
+    text-decoration: none;
+    color: var(--clr-font);
+    padding: 0.8em;   
+}
+
+/*------------Pág: Productos.html------------*/
+
+.mainTitle{
+    font-size: var(--main-title);
+    text-align: center;
+    margin-top: 1em;
+}
+
+.productoTabla{
+    border: 1px solid var(--clr-secondary);
+}
+
+
+.table-responsive{
+    margin-bottom: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------FOOTER----------------*/
+
+Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(224, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+
+
