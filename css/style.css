@@ -91,7 +91,7 @@ body{
 
 .product-card {
   margin: 1rem;  
-  box-shadow: 5px 5px 20px;
+  box-shadow: 5px 5px 10px;
 }
 
 .product-card{
@@ -103,7 +103,7 @@ body{
 }
 
 :hover.product-card{
-    background-color: rgba(98, 98, 98, 0.4);
+    box-shadow: 5px 5px 40px;
 }
 
 .product-card h2 {
